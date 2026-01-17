@@ -75,11 +75,7 @@ def load_data(csv_path: Path) -> pd.DataFrame:
         raise
 
 
-def train_model(
-    X_train: np.ndarray,
-    y_train: np.ndarray,
-    params: dict,
-) -> RandomForestClassifier:
+def train_model(X_train: np.ndarray,y_train: np.ndarray,params: dict,) -> RandomForestClassifier:
     """Train RandomForest model."""
     try:
         if X_train.shape[0] != y_train.shape[0]:
@@ -121,11 +117,11 @@ def save_model(model: RandomForestClassifier, path: Path) -> None:
 def main() -> None:
     try:
         # Params (hardcoded for now; wire params.yaml later)
-        MODEL_PARAMS = {
-            "n_estimators": 100,
-            "random_state": 42,
-        }
-
+        # MODEL_PARAMS = {
+        #     "n_estimators": 100,
+        #     "random_state": 42,
+        # }
+        MODEL_PARAMS = load_params('params.yaml')['model_building']
         logger.debug("Loading TF-IDF training data")
 
         train_df = load_data(

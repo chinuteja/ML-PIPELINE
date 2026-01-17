@@ -106,8 +106,11 @@ def main() -> None:
             "vikashishere/Datasets/main/spam.csv"
         )
 
-        TEST_SIZE = 0.2
-        RANDOM_STATE = 2
+        # TEST_SIZE = 0.2
+        # RANDOM_STATE = 2
+        params = load_params(params_path='params.yaml')
+        TEST_SIZE = params['data_ingestion']['test_size']
+        RANDOM_STATE = params['data_ingestion']['random_state']
 
         logger.debug("Project root: %s", PROJECT_ROOT.resolve())
         logger.debug("Raw data dir: %s", RAW_DATA_DIR.resolve())

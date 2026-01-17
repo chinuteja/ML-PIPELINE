@@ -108,7 +108,9 @@ def apply_tfidf(
 def main() -> None:
     try:
         # Params (hardcoded for now, wire params.yaml later)
-        MAX_FEATURES = 50
+        #MAX_FEATURES = 50
+        params = load_params(params_path='params.yaml')
+        MAX_FEATURES = params['feature_engineering']['max_features']
 
         logger.debug("Loading interim datasets")
 

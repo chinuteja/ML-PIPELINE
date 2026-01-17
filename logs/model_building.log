@@ -13,3 +13,33 @@
 2026-01-17 18:55:29,074 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 100, 'random_state': 42}
 2026-01-17 18:55:29,624 - model_building - DEBUG - Model training completed
 2026-01-17 18:55:29,633 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
+2026-01-17 19:41:39,384 - model_building - DEBUG - Parameters loaded from params.yaml
+2026-01-17 19:41:39,385 - model_building - DEBUG - Loading TF-IDF training data
+2026-01-17 19:41:39,399 - model_building - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\train_tfidf.csv with shape (4152, 36)
+2026-01-17 19:41:39,400 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 22, 'random_state': 2}
+2026-01-17 19:41:39,490 - model_building - DEBUG - Model training completed
+2026-01-17 19:41:39,493 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
+2026-01-17 19:43:48,918 - model_building - DEBUG - Parameters loaded from params.yaml
+2026-01-17 19:43:48,919 - model_building - DEBUG - Loading TF-IDF training data
+2026-01-17 19:43:48,943 - model_building - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\train_tfidf.csv with shape (4441, 51)
+2026-01-17 19:43:48,944 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 50, 'random_state': 42}
+2026-01-17 19:43:49,249 - model_building - DEBUG - Model training completed
+2026-01-17 19:43:49,254 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
+2026-01-17 19:52:43,268 - model_building - DEBUG - Parameters loaded from params.yaml
+2026-01-17 19:52:43,269 - model_building - DEBUG - Loading TF-IDF training data
+2026-01-17 19:52:43,294 - model_building - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\train_tfidf.csv with shape (4441, 41)
+2026-01-17 19:52:43,296 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 100, 'random_state': 42}
+2026-01-17 19:52:43,761 - model_building - DEBUG - Model training completed
+2026-01-17 19:52:43,771 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
+2026-01-17 19:56:27,104 - model_building - DEBUG - Parameters loaded from params.yaml
+2026-01-17 19:56:27,105 - model_building - DEBUG - Loading TF-IDF training data
+2026-01-17 19:56:27,122 - model_building - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\train_tfidf.csv with shape (4152, 36)
+2026-01-17 19:56:27,124 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 22, 'random_state': 42}
+2026-01-17 19:56:27,240 - model_building - DEBUG - Model training completed
+2026-01-17 19:56:27,243 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
+2026-01-17 19:57:20,438 - model_building - DEBUG - Parameters loaded from params.yaml
+2026-01-17 19:57:20,438 - model_building - DEBUG - Loading TF-IDF training data
+2026-01-17 19:57:20,462 - model_building - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\train_tfidf.csv with shape (4684, 51)
+2026-01-17 19:57:20,466 - model_building - DEBUG - Training RandomForest with params: {'n_estimators': 25, 'random_state': 42}
+2026-01-17 19:57:20,630 - model_building - DEBUG - Model training completed
+2026-01-17 19:57:20,634 - model_building - DEBUG - Model saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
