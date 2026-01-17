@@ -31,13 +31,3 @@
 2026-01-17 19:52:46,499 - model_evaluation - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\test_tfidf.csv
 2026-01-17 19:52:46,542 - model_evaluation - DEBUG - Evaluation metrics calculated: {'accuracy': 0.9524969549330086, 'precision': 0.8207547169811321, 'recall': 0.8130841121495327, 'auc': np.float64(0.9561245058771172)}
 2026-01-17 19:52:47,073 - model_evaluation - DEBUG - Metrics saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\reports\metrics.json
-2026-01-17 19:56:29,950 - model_evaluation - DEBUG - Loading model and test data
-2026-01-17 19:56:30,082 - model_evaluation - DEBUG - Model loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
-2026-01-17 19:56:30,089 - model_evaluation - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\test_tfidf.csv
-2026-01-17 19:56:30,107 - model_evaluation - DEBUG - Evaluation metrics calculated: {'accuracy': 0.9382379654859219, 'precision': 0.8548387096774194, 'recall': 0.6794871794871795, 'auc': np.float64(0.9206518789852125)}
-2026-01-17 19:56:30,677 - model_evaluation - DEBUG - Metrics saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\reports\metrics.json
-2026-01-17 19:57:23,272 - model_evaluation - DEBUG - Loading model and test data
-2026-01-17 19:57:23,414 - model_evaluation - DEBUG - Model loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\models\model.pkl
-2026-01-17 19:57:23,424 - model_evaluation - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed\test_tfidf.csv
-2026-01-17 19:57:23,450 - model_evaluation - DEBUG - Evaluation metrics calculated: {'accuracy': 0.9634369287020109, 'precision': 0.9272727272727272, 'recall': 0.7611940298507462, 'auc': np.float64(0.9631218905472637)}
-2026-01-17 19:57:23,992 - model_evaluation - DEBUG - Metrics saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\reports\metrics.json
