@@ -3,3 +3,8 @@
 2026-01-17 12:49:25,468 - feature_engineering - DEBUG - tfidf applied and data transformed
 2026-01-17 12:49:25,646 - feature_engineering - DEBUG - Data saved to ../data\processed\train_tfidf.csv
 2026-01-17 12:49:25,688 - feature_engineering - DEBUG - Data saved to ../data\processed\test_tfidf.csv
+2026-01-17 18:53:41,713 - feature_engineering - DEBUG - Loading interim datasets
+2026-01-17 18:53:41,724 - feature_engineering - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\interim\train_processed.csv
+2026-01-17 18:53:41,733 - feature_engineering - DEBUG - Data loaded from D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\interim\test_processed.csv
+2026-01-17 18:53:41,794 - feature_engineering - DEBUG - TF-IDF transformation completed
+2026-01-17 18:53:41,921 - feature_engineering - DEBUG - TF-IDF features saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\processed

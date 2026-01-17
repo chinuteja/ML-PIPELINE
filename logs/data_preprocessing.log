@@ -8,3 +8,13 @@
 2026-01-17 12:43:59,760 - data_preprocessing - DEBUG - Duplicates removed
 2026-01-17 12:44:02,211 - data_preprocessing - DEBUG - Text column transformed
 2026-01-17 12:44:02,239 - data_preprocessing - DEBUG - Processed data saved to ../data\interim
+2026-01-17 18:53:38,126 - data_preprocessing - DEBUG - Loading raw datasets
+2026-01-17 18:53:38,142 - data_preprocessing - DEBUG - Starting preprocessing
+2026-01-17 18:53:38,144 - data_preprocessing - DEBUG - Target column encoded
+2026-01-17 18:53:38,147 - data_preprocessing - DEBUG - Duplicates removed
+2026-01-17 18:53:39,052 - data_preprocessing - DEBUG - Text column transformed
+2026-01-17 18:53:39,053 - data_preprocessing - DEBUG - Starting preprocessing
+2026-01-17 18:53:39,055 - data_preprocessing - DEBUG - Target column encoded
+2026-01-17 18:53:39,057 - data_preprocessing - DEBUG - Duplicates removed
+2026-01-17 18:53:39,298 - data_preprocessing - DEBUG - Text column transformed
+2026-01-17 18:53:39,310 - data_preprocessing - DEBUG - Processed data saved to D:\MLOPS END TO END\04-ML-PIPELINE\ML-PIPELINE\data\interim
