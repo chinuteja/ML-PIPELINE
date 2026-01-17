@@ -1,0 +1,8 @@
+2026-01-17 12:58:26,805 - model_evaluation - DEBUG - Model loaded from ../models/model.pkl
+2026-01-17 12:58:26,816 - model_evaluation - DEBUG - Data loaded from ../data/processed/test_tfidf.csv
+2026-01-17 12:58:26,885 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-01-17 12:58:29,585 - model_evaluation - DEBUG - Metrics saved to ../reports/metrics.json
+2026-01-17 13:02:38,362 - model_evaluation - DEBUG - Model loaded from ../models/model.pkl
+2026-01-17 13:02:38,376 - model_evaluation - DEBUG - Data loaded from ../data/processed/test_tfidf.csv
+2026-01-17 13:02:38,450 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-01-17 13:02:40,224 - model_evaluation - DEBUG - Metrics saved to ../reports/metrics.json
